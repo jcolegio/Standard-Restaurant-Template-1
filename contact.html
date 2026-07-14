@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Reservations — Noir & Vine</title>
+<meta name="description" content="Reserve a table, ask a question, or get directions to Noir & Vine in the Downtown District.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">Noir <span class="amp">&</span> Vine</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html#reserve" class="btn btn-solid">Reserve a Table</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-banner navy">
+  <div class="container">
+    <span class="eyebrow">We'd Love to Hear From You</span>
+    <h1>Contact & Reservations</h1>
+    <p>Book a table, ask about private dining, or send us a question.</p>
+  </div>
+</section>
+
+<section id="reserve">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <div class="info-block">
+          <h4>Address</h4>
+          <p>118 Cellar Row<br>Downtown District, ST 00000</p>
+        </div>
+        <div class="info-block">
+          <h4>Hours</h4>
+          <p>Tuesday – Thursday: 5:30pm – 10:00pm<br>
+          Friday – Saturday: 5:30pm – 11:00pm<br>
+          Sunday – Monday: Closed</p>
+        </div>
+        <div class="info-block">
+          <h4>Reach Us</h4>
+          <p><a href="tel:+15551234567">(555) 123-4567</a><br>
+          <a href="mailto:hello@noirandvine.example">hello@noirandvine.example</a></p>
+        </div>
+        <div class="info-block">
+          <h4>Private Dining</h4>
+          <p>For the Vault Room or full buyouts, mention it in the form and our events manager will follow up within two business days.</p>
+        </div>
+
+        <div class="map-frame" role="img" aria-label="Map showing Noir & Vine's location at 118 Cellar Row, Downtown District">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="400" height="300" fill="#17171B"/>
+            <path d="M0 60 H400 M0 140 H400 M0 220 H400 M80 0 V300 M200 0 V300 M320 0 V300" stroke="rgba(184,147,90,0.15)" stroke-width="1"/>
+            <circle cx="200" cy="150" r="7" fill="#6B1D2E"/>
+            <circle cx="200" cy="150" r="14" fill="none" stroke="#B8935A" stroke-width="1"/>
+            <text x="200" y="185" fill="#D8C39A" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" text-anchor="middle">118 Cellar Row</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <h2 style="font-size:1.8rem; margin-bottom:1.8rem;">Send a Reservation Request</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <span class="field-error"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date">
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="party">Party Size</label>
+              <select id="party" name="party">
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5–6 Guests</option>
+                <option>7+ Guests (Private Dining)</option>
+              </select>
+              <span class="field-error"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Preferred time, dietary needs, occasion..." required></textarea>
+            <span class="field-error"></span>
+          </div>
+          <button type="submit" class="btn btn-solid">Send Request</button>
+          <p class="form-note">This form sends a request only — we'll confirm your table by email or phone within one business day.</p>
+          <div class="form-status" role="status"></div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Noir & Vine</h4>
+        <p>118 Cellar Row, Downtown District<br>Modern European dining & wine, since 2014.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Tue–Thu: 5:30 – 10pm<br>Fri–Sat: 5:30 – 11pm<br>Sun–Mon: Closed</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+15551234567">(555) 123-4567</a><br><a href="mailto:hello@noirandvine.example">hello@noirandvine.example</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Noir & Vine. All rights reserved.</span>
+      <span><a href="contact.html">Get in touch</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

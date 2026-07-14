@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Noir & Vine</title>
+<meta name="description" content="The current seasonal menu at Noir & Vine — starters, mains, desserts, and our by-the-glass wine list.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">Noir <span class="amp">&</span> Vine</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html#reserve" class="btn btn-solid">Reserve a Table</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="menu-hero">
+  <div class="container">
+    <span class="eyebrow">Updated Weekly</span>
+    <h1>The Menu</h1>
+    <p style="max-width:56ch; margin:1rem auto 0;">A short list, changed with the season. Ask your server about tonight's additions and the sommelier's pairing for each course.</p>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Courses</button>
+      <button class="filter-btn" data-filter="starters">Starters</button>
+      <button class="filter-btn" data-filter="mains">Mains</button>
+      <button class="filter-btn" data-filter="desserts">Desserts</button>
+      <button class="filter-btn" data-filter="wine">Wine by the Glass</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <div class="menu-course" data-course="starters">
+      <div class="menu-course-title">
+        <div class="stitch"><span class="stitch-mark"></span></div>
+        <p class="chapter-label">— starters —</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item show" data-category="starters">
+          <div class="menu-item-row"><h4>Heirloom Beet & Burrata</h4><span class="price">$16</span></div>
+          <p>Charred citrus, whipped burrata, toasted hazelnut, aged sherry.</p>
+          <div class="dietary-tags"><span>Vegetarian</span><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="starters">
+          <div class="menu-item-row"><h4>Seared Scallop</h4><span class="price">$19</span></div>
+          <p>Brown butter, cauliflower purée, golden raisin, capers.</p>
+          <div class="dietary-tags"><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="starters">
+          <div class="menu-item-row"><h4>Wild Mushroom Tart</h4><span class="price">$15</span></div>
+          <p>Puff pastry, taleggio, thyme, black garlic.</p>
+          <div class="dietary-tags"><span>Vegetarian</span></div>
+        </div>
+        <div class="menu-item show" data-category="starters">
+          <div class="menu-item-row"><h4>Duck Liver Parfait</h4><span class="price">$18</span></div>
+          <p>Brioche, fig preserve, pickled shallot, sea salt.</p>
+          <div class="dietary-tags"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-course" data-course="mains">
+      <div class="menu-course-title">
+        <div class="stitch"><span class="stitch-mark"></span></div>
+        <p class="chapter-label">— mains —</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item show" data-category="mains">
+          <div class="menu-item-row"><h4>Dry-Aged Sirloin</h4><span class="price">$46</span></div>
+          <p>Bone marrow butter, roasted shallot, café de Paris jus.</p>
+          <div class="dietary-tags"><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="mains">
+          <div class="menu-item-row"><h4>Pan-Roasted Halibut</h4><span class="price">$38</span></div>
+          <p>Fennel, saffron broth, confit tomato, aioli.</p>
+          <div class="dietary-tags"><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="mains">
+          <div class="menu-item-row"><h4>Braised Short Rib</h4><span class="price">$41</span></div>
+          <p>Celeriac purée, red wine reduction, pearl onion.</p>
+          <div class="dietary-tags"><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="mains">
+          <div class="menu-item-row"><h4>Wild Mushroom Risotto</h4><span class="price">$29</span></div>
+          <p>Aged parmesan, black truffle, chive oil.</p>
+          <div class="dietary-tags"><span>Vegetarian</span><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="mains">
+          <div class="menu-item-row"><h4>Roast Chicken for Two</h4><span class="price">$58</span></div>
+          <p>Jus, seasonal vegetables, herbed potato — served tableside.</p>
+          <div class="dietary-tags"><span>GF</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-course" data-course="desserts">
+      <div class="menu-course-title">
+        <div class="stitch"><span class="stitch-mark"></span></div>
+        <p class="chapter-label">— desserts —</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item show" data-category="desserts">
+          <div class="menu-item-row"><h4>Valrhona & Cherry Tart</h4><span class="price">$14</span></div>
+          <p>Dark chocolate tart, brandied cherry, crème fraîche.</p>
+          <div class="dietary-tags"><span>Vegetarian</span></div>
+        </div>
+        <div class="menu-item show" data-category="desserts">
+          <div class="menu-item-row"><h4>Basque Cheesecake</h4><span class="price">$13</span></div>
+          <p>Burnt honey, toasted almond, sea salt.</p>
+          <div class="dietary-tags"><span>Vegetarian</span><span>GF</span></div>
+        </div>
+        <div class="menu-item show" data-category="desserts">
+          <div class="menu-item-row"><h4>Pear & Frangipane</h4><span class="price">$13</span></div>
+          <p>Poached pear, almond cream, vanilla bean crème anglaise.</p>
+          <div class="dietary-tags"><span>Vegetarian</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-course" data-course="wine">
+      <div class="menu-course-title">
+        <div class="stitch"><span class="stitch-mark"></span></div>
+        <p class="chapter-label">— wine, by the glass —</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item show" data-category="wine">
+          <div class="menu-item-row"><h4>Burgundy Pinot Noir, '19</h4><span class="price">$18</span></div>
+          <p>Côte de Beaune. Bright red fruit, soft tannin, long finish.</p>
+        </div>
+        <div class="menu-item show" data-category="wine">
+          <div class="menu-item-row"><h4>Loire Valley Chenin Blanc</h4><span class="price">$15</span></div>
+          <p>Dry, mineral-driven, notes of quince and beeswax.</p>
+        </div>
+        <div class="menu-item show" data-category="wine">
+          <div class="menu-item-row"><h4>Barolo Nebbiolo, '17</h4><span class="price">$22</span></div>
+          <p>Structured, tar and rose, built for the sirloin.</p>
+        </div>
+        <div class="menu-item show" data-category="wine">
+          <div class="menu-item-row"><h4>Rioja Tempranillo Rosé</h4><span class="price">$13</span></div>
+          <p>Dry, savory, a shade darker than most rosés.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wine-note reveal" style="margin-top:2rem;">
+      <p class="chapter-label" style="margin-bottom:.8rem;">A note from the sommelier</p>
+      <p>Our full bottle list runs to 240 labels, organized by weight rather than region — ask your server to bring it, or tell us what you're eating and drinking usually, and we'll choose for you.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <span class="eyebrow">Menus Change With the Season</span>
+    <h2>Reserve your evening.</h2>
+    <a href="contact.html#reserve" class="btn btn-solid">Reserve a Table</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Noir & Vine</h4>
+        <p>118 Cellar Row, Downtown District<br>Modern European dining & wine, since 2014.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Tue–Thu: 5:30 – 10pm<br>Fri–Sat: 5:30 – 11pm<br>Sun–Mon: Closed</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+15551234567">(555) 123-4567</a><br><a href="mailto:hello@noirandvine.example">hello@noirandvine.example</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Noir & Vine. All rights reserved.</span>
+      <span><a href="contact.html">Get in touch</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
